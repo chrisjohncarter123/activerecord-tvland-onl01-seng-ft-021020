@@ -9,7 +9,7 @@ class Show < ActiveRecord::Base
   end
   
   def build_network(call_letters:)
-    
+    Network.find_by()
     
   end
 end
