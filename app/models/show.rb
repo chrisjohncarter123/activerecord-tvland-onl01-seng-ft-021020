@@ -7,4 +7,8 @@ class Show < ActiveRecord::Base
     return self.actors.collect{|a| a.full_name}
     
   end
+  
+  def build_network
+    
+  end
 end
