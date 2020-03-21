@@ -8,7 +8,7 @@ class Show < ActiveRecord::Base
     
   end
   
-  def build_network(:call_letters)
+  def build_network(call_letters:)
     
     
   end
